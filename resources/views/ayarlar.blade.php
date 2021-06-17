@@ -50,7 +50,7 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">Yaş</p>
-                                    <input id="getagenput" value="{{$userglobal->yas}}" class="form-control textinputstyle rounded" type="text"  >
+                                    <input id="getagenput" value="{{$userglobal->yas}}" class="form-control textinputstyle rounded" name="yas" type="text"  >
                                 </div>
                             </div>
 
