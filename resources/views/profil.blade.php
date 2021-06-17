@@ -65,7 +65,7 @@
     @if(Auth::user()->id != $kullanici->id)
     <div class="friend-center-fixed-profile-card rounded">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <div class="cover-container d-flex justify-content-center row">
+        <div class="cover-container d-flex justify-content-center row" style="background-position: center; background-size: cover; background-repeat:no-repeat; background-image: url(/uploads/image/users/{{$kullanici->kapak_fotografi}});">
             <div href="cover.jpg" class="cover-image rounded fancybox " rel="ligthbox">
             </div>
         </div>
