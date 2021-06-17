@@ -1,8 +1,7 @@
-@extends('katmanlar.master')
-@section('title', 'Ayarlar')
-@section('css', '/assets/css/settings.css')
+<?php $__env->startSection('title', 'Ayarlar'); ?>
+<?php $__env->startSection('css', '/assets/css/settings.css'); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <h2 id="pageTitle">Ayarlar</h2>
 
@@ -28,59 +27,59 @@
                     <div class="tab-content" id="myTabContent">
 
                         <div class="tab-pane fade show active rounded custom-tab-content" id="profilesettings-tab-content" role="tabpanel" aria-labelledby="profilesettings-tab-content">
-                            <form action="{{route('ayarlar.kaydet')}}" method="POST" enctype="multipart/form-data">
-                                @csrf
+                            <form action="<?php echo e(route('ayarlar.kaydet')); ?>" method="POST" enctype="multipart/form-data">
+                                <?php echo csrf_field(); ?>
                             <div class="row profilpicarea align-items-center">
                                 <input type="file" name="profilfoto" class="editpp editphoto" accept="image/*" onchange="loadprofilephoto(event)" title="Profil resmini değiştir." />
                                 <p class="editppicon editphotoicon">&#9998;</p>
-                                <a href="/uploads/image/users/{{$userglobal->profil_fotografi}}" class="fancybox" rel="ligthbox">
-                                    <img src="/uploads/image/users/{{$userglobal->profil_fotografi}}" class="profilepic zoom img-fluid rounded-circle" alt="">
+                                <a href="/uploads/image/users/<?php echo e($userglobal->profil_fotografi); ?>" class="fancybox" rel="ligthbox">
+                                    <img src="/uploads/image/users/<?php echo e($userglobal->profil_fotografi); ?>" class="profilepic zoom img-fluid rounded-circle" alt="">
                                 </a>
-                                <p id="usernamearea" class="text-truncate">{{$user->kullanici_adi}}</p>
+                                <p id="usernamearea" class="text-truncate"><?php echo e($user->kullanici_adi); ?></p>
                             </div>
 
                             <div class="row tab-content-custom-row justify-content-around">
                                 <div class="col-sm-4 justify-content-between">
                                     <p class="inputlabel">İsim</p>
-                                    <input id="getnameinput" value="{{$userglobal->ad}}" class="form-control textinputstyle rounded" type="text" name="ad">
+                                    <input id="getnameinput" value="<?php echo e($userglobal->ad); ?>" class="form-control textinputstyle rounded" type="text" name="ad">
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">Soyisim</p>
-                                    <input id="getsurnameinput" value="{{$userglobal->soyad}}" class="form-control textinputstyle rounded" type="text" name="soyad">
+                                    <input id="getsurnameinput" value="<?php echo e($userglobal->soyad); ?>" class="form-control textinputstyle rounded" type="text" name="soyad">
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">Yaş</p>
-                                    <input id="getagenput" value="{{$userglobal->yas}}" class="form-control textinputstyle rounded" type="text"  >
+                                    <input id="getagenput" value="<?php echo e($userglobal->yas); ?>" class="form-control textinputstyle rounded" type="text"  >
                                 </div>
                             </div>
 
                             <div class="row tab-content-custom-row justify-content-around">
                                 <div class="col-sm-4 justify-content-between">
                                     <p class="inputlabel">Uyruk</p>
-                                    <input value="{{$userglobal->uyruk}}" id="getcountryinput" class="form-control textinputstyle rounded" type="text" >
+                                    <input value="<?php echo e($userglobal->uyruk); ?>" id="getcountryinput" class="form-control textinputstyle rounded" type="text" >
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">Şehir</p>
-                                    <input value="{{$userglobal->bulundugu_il}}" id="getcityinput" class="form-control textinputstyle rounded" type="text" name="bulundugu_il" >
+                                    <input value="<?php echo e($userglobal->bulundugu_il); ?>" id="getcityinput" class="form-control textinputstyle rounded" type="text" name="bulundugu_il" >
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">İlçe</p>
-                                    <input value="{{$userglobal->bulundugu_ilce}}" id="getstateinput" class="form-control textinputstyle rounded" type="text" name="bulundugu_ilce" >
+                                    <input value="<?php echo e($userglobal->bulundugu_ilce); ?>" id="getstateinput" class="form-control textinputstyle rounded" type="text" name="bulundugu_ilce" >
                                 </div>
                             </div>
 
                             <div class="row tab-content-custom-row justify-content-around">
                                 <div class="col-sm-4 justify-content-between">
                                     <p class="inputlabel">Bölüm</p>
-                                    <input value="{{$userglobal->bolum_bilgisi}}" id="getdepartmantinput" class="form-control textinputstyle rounded" type="text" name="bolum_bilgisi" >
+                                    <input value="<?php echo e($userglobal->bolum_bilgisi); ?>" id="getdepartmantinput" class="form-control textinputstyle rounded" type="text" name="bolum_bilgisi" >
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">Sınıf</p>
-                                    <input value="{{$userglobal->sinif_bilgisi}}" id="getgradeinput" class="form-control textinputstyle rounded" type="text" name="sinif_bilgisi" >
+                                    <input value="<?php echo e($userglobal->sinif_bilgisi); ?>" id="getgradeinput" class="form-control textinputstyle rounded" type="text" name="sinif_bilgisi" >
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">İlgi Alanı</p>
-                                    <input  value="{{$userglobal->ilgi_alani}}" id="getworkspaceinput" class="form-control textinputstyle rounded" type="text" name="ilgi_alani" >
+                                    <input  value="<?php echo e($userglobal->ilgi_alani); ?>" id="getworkspaceinput" class="form-control textinputstyle rounded" type="text" name="ilgi_alani" >
                                 </div>
                             </div>
 
@@ -111,8 +110,8 @@
                         </div>
 
                         <div class="tab-pane fade rounded custom-tab-content" id="accountsettings-tab-content" role="tabpane2" aria-labelledby="accountsettings-tab-content">
-                            <form action="{{route('ayarlar.guvenlik.kaydet')}}" method="POST" id="hesap_ayarlari">
-                                @csrf
+                            <form action="<?php echo e(route('ayarlar.guvenlik.kaydet')); ?>" method="POST" id="hesap_ayarlari">
+                                <?php echo csrf_field(); ?>
                             <div class="row profilpicarea align-items-center">
                                 <img src="/padlock.png" class="profilepic zoom img-fluid" alt="">
                             </div>
@@ -136,22 +135,22 @@
                                 <div class="col-sm-4 justify-content-between">
                                     <p class="inputlabel">Kullanıcı Adı</p>
                                     <!--<p1 id="usernamevalue" class="inputlabel">yahyacanozdemir</p1>-->
-                                    <input value="{{$userglobal->kullanici_adi}}" name='kullanici_adi' id="getnewusername" class="form-control textinputstyle rounded" type="text" >
+                                    <input value="<?php echo e($userglobal->kullanici_adi); ?>" name='kullanici_adi' id="getnewusername" class="form-control textinputstyle rounded" type="text" >
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">Birincil E-Posta</p>
-                                    <input value="{{$userglobal->email}}" id="getemail1" class="form-control textinputstyle rounded" type="text" placeholder="183608590..@ogrenci.btu.edu.tr">
+                                    <input value="<?php echo e($userglobal->email); ?>" id="getemail1" class="form-control textinputstyle rounded" type="text" placeholder="183608590..@ogrenci.btu.edu.tr">
                                 </div>
                                 <div class="col-sm-4">
                                     <p class="inputlabel">İkinci E-Posta</p>
-                                    <input value="{{$userglobal->kisisel_eposta_adresi}}" name='kisisel_eposta_adresi' id="getemail2" class="form-control textinputstyle rounded" type="text" placeholder="ozelmailadresiniz@example.com">
+                                    <input value="<?php echo e($userglobal->kisisel_eposta_adresi); ?>" name='kisisel_eposta_adresi' id="getemail2" class="form-control textinputstyle rounded" type="text" placeholder="ozelmailadresiniz@example.com">
                                 </div>
                             </div>
 
                             <div class="row tab-content-custom-row justify-content-between">
                                 <div class="col-sm-4 justify-content-between">
                                     <p class="inputlabel">Telefon Numarası</p>
-                                    <input value="{{$userglobal->telefon}}" id="getnewphone" class="form-control textinputstyle rounded" type="text">
+                                    <input value="<?php echo e($userglobal->telefon); ?>" id="getnewphone" class="form-control textinputstyle rounded" type="text">
                                 </div>
 
                             </div>
@@ -217,10 +216,10 @@
 
     <div class="row footer-div justify-content-center align-items-center">
         <!-- ÇIKIŞ YAPMA -->
-        <form id="logout-form" method="POST" action="{{ route('logout') }}">
-            @csrf
+        <form id="logout-form" method="POST" action="<?php echo e(route('logout')); ?>">
+            <?php echo csrf_field(); ?>
         </form>
-        <a class="btn btn-danger rounded tabbutton" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i class="las la-sign-out-alt bg-danger-alt text-danger p-1 rounded"></i>Çıkış</a>
+        <a class="btn btn-danger rounded tabbutton" href="<?php echo e(route('logout')); ?>" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i class="las la-sign-out-alt bg-danger-alt text-danger p-1 rounded"></i>Çıkış</a>
         <!-- ÇIKIŞ YAPMA -->
     </div>
 
@@ -254,9 +253,11 @@
     </div>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
 
 
-@section('script')
+<?php $__env->startSection('script'); ?>
     <script src="/assets/js/settings.js"></script>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('katmanlar.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /home/yahya/Desktop/HAYDE-SOCIALMEDIA-APP/resources/views/ayarlar.blade.php ENDPATH**/ ?>

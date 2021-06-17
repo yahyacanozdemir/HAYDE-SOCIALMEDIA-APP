@@ -1,5 +1,5 @@
 @extends('katmanlar.master')
-@section('title', 'Anasayfa')
+@section('title', 'Etkinlik Detayları')
 @section('css', '/assets/css/EventDetail.css')
 
 @section('content')

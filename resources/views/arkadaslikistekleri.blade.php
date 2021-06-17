@@ -1,5 +1,5 @@
 @extends('katmanlar.master')
-@section('title', 'Anasayfa')
+@section('title', 'Arkadaşlık İstekleri')
 @section('css', '/assets/css/friendRequests.css')
 
 @section('content')
