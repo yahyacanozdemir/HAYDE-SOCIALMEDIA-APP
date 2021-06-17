@@ -1,0 +1,551 @@
+/* Start User Profile Card*/
+
+.center-fixed-profile-card {
+    width: 80%;
+    height: 520px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #263258;
+}
+
+.friend-center-fixed-profile-card {
+    width: 80%;
+    height: 560px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #263258;
+}
+
+#profile-name {
+    color: white;
+    font-size: large;
+}
+
+.rounded {
+    border-radius: 15px!important;
+}
+
+.cover-container {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 360px;
+}
+
+.cover-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(cover.jpg);
+    background-position: center;
+    width: 100%;
+    animation: 1s fade;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 1.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 1.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.8);
+}
+
+.cover-go-settings-button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 7667;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%!important;
+}
+
+.cover-gosettings-icon {
+    color: black;
+    position: absolute;
+    font-size: 35px;
+    padding-left: 10px;
+    z-index: 7667;
+}
+
+.cover-gosettings-icon:hover {
+    color: #263258;
+}
+
+.cover-edit-image-button {
+    transform: scaleX(1);
+    position: absolute;
+    right: 80px;
+    bottom: 10px;
+    font-size: 26px;
+    z-index: 7667;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%!important;
+}
+
+.save-cover-image-button {
+    transform: scaleX(1);
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
+    font-size: 26px;
+    z-index: 7667;
+    border-radius: 50%!important;
+}
+
+.save-cover-image-button-shape {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.cover-edit-image-icon {
+    transform: scaleX(-1);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 7667;
+}
+
+.edit-cover {
+    position: absolute;
+    right: 14px;
+    top: 7px;
+    z-index: 7777;
+    width: 20px;
+    opacity: 0;
+}
+
+.edit-photo:hover~.edit-photo-icon {
+    color: black;
+    opacity: 1;
+}
+
+
+/* Start User Info Card Bottom */
+
+.profile-card-bottom {
+    width: 200px;
+    /*height: 100px;*/
+    background-color: transparent;
+    /*border: 1px solid #B7B7B7;*/
+    /*	border-radius: 4px;*/
+    /*	box-shadow: 2px 6px 6px #999999;*/
+    margin: 0px auto;
+    position: relative;
+    top: -80px;
+}
+
+.profile-card-bottom .edit-pp-icon {
+    cursor: pointer;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 35%;
+    right: 13px;
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 7666;
+    color: rgb(255, 255, 255);
+}
+
+.editpp {
+    position: absolute;
+    top: 38%;
+    right: 15px;
+    z-index: 7777;
+    width: 20px;
+    opacity: 0;
+}
+
+.profile-card-bottom img {
+    width: 150px;
+    height: 150px;
+    /*padding: 15px;*/
+    /*padding-bottom: 10px;*/
+    border-radius: 50%;
+    display: block;
+    margin: 4px auto 25px auto;
+}
+
+.profile-card-bottom #profilename {
+    text-align: center;
+    position: relative;
+    top: -10px;
+    margin: 0px;
+    font-size: 18px;
+    /*font-family: "Comic Sans MS";
+    font-weight: bold;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile-card-bottom p {
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #525252;
+}
+
+.profile-card-left-area {
+    color: white;
+    width: 200px;
+    position: relative;
+    top: -135px;
+}
+
+.profile-card-left-texts {
+    color: white;
+}
+
+.profile-card-left-area #postsvalue {
+    margin-left: 30px;
+}
+
+.profile-card-left-area #friendsvalue {
+    margin-left: 30px;
+}
+
+.profile-card-right-area {
+    top: -205px;
+}
+
+
+/* End User Info Card Bottom */
+
+
+/* Start of Social Medi Area */
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 2px;
+}
+
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoVimeo:hover {
+    background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+/* End of Social Medi Area */
+
+
+/* End of User Profile Card*/
+
+.center-fixed-profile-content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -150px;
+    float: left;
+    /*background-color: #ffffff;*/
+}
+
+.circularimage {
+    border-radius: 50%;
+}
+
+.gedf-card {
+    background-color: #263258;
+    animation: 1s fade;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 1.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 1.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.8);
+    margin-bottom: 2.77rem;
+}
+
+.content-left-area-card-title {
+    color: rgb(169, 183, 247);
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.about-card-text-style {
+    color: rgb(216, 222, 250);
+    font-weight: 50;
+    font-size: 20px;
+}
+
+.photos-card-photo-div {
+    margin-bottom: 30px;
+}
+
+.friends-card-friend-div {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.friends-card-text-style {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.friends-card-img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#create-post-card-title {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: rgb(169, 183, 247);
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.create-post-profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.create-event-area {
+    margin-left: 2px;
+}
+
+.text-form-color {
+    background-color: #263258;
+    color: #ffffff;
+    height: 50px;
+    resize: none;
+}
+
+.text-form-color:focus {
+    background-color: #263258;
+    color: white;
+}
+
+.green {
+    background-color: #6fb936;
+}
+
+.page-top {
+    margin-top: 85px;
+}
+
+img.zoom {
+    border-radius: 5px;
+    object-fit: cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.post-card-image {}
+
+.modal-title {
+    color: #000;
+}
+
+.modal-footer {
+    display: none;
+}
+
+#comments-area {
+    display: none;
+}
+
+.card-text {
+    color: #a8a8a8;
+    font-size: 20px;
+}
+
+#comment-content {
+    color: #a8a8a8;
+    font-size: 12px;
+}
+
+.event-title-style {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(36, 36, 36);
+}
+
+.event-location-style {
+    text-align: start;
+    font-weight: 900;
+    color: rgb(100, 100, 100);
+}
+
+.event-date-style {
+    text-align: end;
+    font-weight: 900;
+    color: rgb(100, 100, 100);
+}
+
+.event-content-title {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+
+.event-content-paragraph {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(100, 100, 100);
+}
+
+
+/**Reset Bootstrap*/
+
+.dropdown-toggle::after {
+    content: none;
+    display: none;
+}
+
+@media only screen and (max-width:892px) {
+    .center-fixed-profile-card {
+        height: 600px;
+    }
+    .friend-center-fixed-profile-card {
+        height: 640px;
+    }
+    .profile-card-left-area {
+        margin: 0px auto;
+        left: -10px;
+        top: -60px;
+    }
+    .profile-card-left-area #postsvalue {
+        margin-left: 30px;
+    }
+    .profile-card-left-area #friendsvalue {
+        margin-left: 30px;
+    }
+    .profile-card-right-area {
+        display: none;
+    }
+    .create-post-profile-pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+    .center-fixed-profile-content {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:766) {
+    .friends-card-img {
+        width: 20px !important;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .center-fixed-profile-card {
+        height: 700px;
+    }
+    .friend-center-fixed-profile-card {
+        height: 740px;
+    }
+    .profile-card-left-area {
+        margin: 0px auto;
+        left: 50px;
+        top: -60px;
+    }
+    .create-post-profile-pic {
+        display: none;
+    }
+    .photos-card-photo-div {
+        width: 25%;
+    }
+    .friends-card-friend-div {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .cover-go-settings-button {
+        right: 10px;
+        top: 10px;
+    }
+    .cover-edit-image-button {
+        right: 80px;
+        top: 10px;
+    }
+    .save-cover-image-button {
+        transform: scaleX(1);
+        position: absolute;
+        right: 70px;
+        top: 0px;
+        font-size: 26px;
+        z-index: 7667;
+        width: 50px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,37 @@
+#page-title {
+    text-align: center;
+    color: rgb(119, 137, 182);
+}
+
+#message {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(243, 243, 243);
+}
+
+.rounded {
+    border-radius: 15px!important;
+}
+
+.custom-card-area-bg {
+    background-color: #263258;
+    padding: 35px;
+    animation: 1s fade;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2.77rem;
+}
+
+.friend-img {
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width:480px) {
+    .friend-buttons-area {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+}

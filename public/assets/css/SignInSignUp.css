@@ -1,0 +1,238 @@
+html,body {
+    background-color: rgb(25, 35, 61);
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.login-area{
+    background-color: rgb(30, 39, 69);
+    height: 100vh;
+    padding-top: 15%;
+    padding-bottom: 50%;
+    font-size:13px; 
+    min-height:100%;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    
+}
+
+.flip-box {
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  background-color: rgb(30, 39, 69);
+  height: 100vh;
+  padding-top: 22%;
+  padding-bottom: 50%;
+  font-size:13px; 
+  min-height:100%;
+  -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  box-shadow:0 0 20px rgba(0,0,0,0.8);
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.showUrAss {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+
+
+
+.title{
+    color: rgb(130, 144, 255);
+}
+
+.text{
+    color: rgb(184, 184, 184);
+}
+
+.inputLabel{
+    padding-left: 15px;
+}
+
+
+.login-input{
+    border-radius: 20px;
+}
+
+
+#logo{
+    width: 150%;
+}
+
+
+@media only screen and (max-width:2560px){
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 20%;
+        padding-bottom: 50%;
+        font-size:13px; 
+    }
+    #logo{
+        width: 120%;
+    }
+}
+
+@media only screen and (max-width:1920px){
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 15%;
+        padding-bottom: 30%;
+        font-size:13px; 
+    }
+    #logo{
+        width: 120%;
+    }
+}
+
+
+@media only screen and (max-width:1440px){
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 15%;
+        padding-bottom: 30%;
+        font-size:13px; 
+    }
+    #logo{
+        width: 120%;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 15%;
+        padding-bottom: 30%;
+        font-size:13px; 
+    }
+    #logo{
+        align-self: center;
+        align-content: center;
+        width: 120%;
+    }
+}
+/*
+@media only screen and (max-width:992px){
+    .login-area{
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(30, 39, 69);
+        padding-top: 15%;
+        padding-bottom: 30%;
+        font-size:13px; 
+    }
+   
+
+    #logo{
+        align-self: center;
+        align-content: center;
+        width: 75%;
+    }
+
+}
+@media only screen and (max-width:850px){
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 15%;
+        padding-bottom: 30%;
+        font-size:13px; 
+    }
+    #logo{
+        align-self: center;
+        align-content: center;
+        width: 75%;
+    }
+
+}
+*/
+
+@media only screen and (max-width:768px){
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 30%;
+        padding-bottom: 30%;
+        font-size:13px; 
+    }
+    .logodiv{
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+    #logo{
+        align-self: center;
+        align-content: center;
+        width: 75%;
+    }
+    
+}
+
+@media only screen and (max-width:670px){
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 30%;
+        padding-bottom: 30%;
+        font-size:13px; 
+    }
+    #logo{
+        align-self: center;
+        align-content: center;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:570px){
+    
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 30%;
+        padding-bottom: 30%;
+        font-size:13px; 
+    }
+    #logo{
+        align-self: center;
+        align-content: center;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:375px){
+    
+    .login-area{
+        height: 100vh;
+        background-color: rgb(30, 39, 69);
+        padding-top: 10%;
+        padding-bottom: 50%;
+        font-size:13px; 
+    }
+    #logo{
+        align-self: center;
+        align-content: center;
+        width: 75%;
+    }
+}

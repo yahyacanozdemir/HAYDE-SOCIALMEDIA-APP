@@ -1,0 +1,93 @@
+#pageTitle {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(119, 137, 182)
+}
+
+a {
+    transition: all 0.2s linear;
+    color: rgb(201, 201, 201)
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    background-color: rgb(201, 201, 201)
+}
+
+.notificationTitle {
+    margin-left: 10px;
+}
+
+.notific-img {
+    height: 50px;
+    width: 50px;
+}
+
+#message {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(243, 243, 243);
+}
+
+
+/***********************************/
+
+.card {
+    --iq-dark-box: #1e2745;
+    --iq-dark-body-text: #8c91b6;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--iq-dark-body-text);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    background: var(--iq-dark-box);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
+    z-index: 0;
+    border: none;
+    position: relative;
+}
+
+.event-title-style {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(36, 36, 36);
+}
+
+.event-location-style {
+    text-align: start;
+    font-weight: 900;
+    color: rgb(100, 100, 100);
+}
+
+.event-date-style {
+    text-align: end;
+    font-weight: 900;
+    color: rgb(100, 100, 100);
+}
+
+.event-content-title {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+
+.event-content-paragraph {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(100, 100, 100);
+}

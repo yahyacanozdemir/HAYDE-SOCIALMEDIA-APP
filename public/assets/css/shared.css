@@ -1,0 +1,85 @@
+html,body {
+    background-color: rgb(25, 35, 61);
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+.hayde-navbar{
+    background-color: rgb(29, 43, 79);
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+
+#navbar-search-input{
+    background-color: rgb(201, 201, 201)
+}
+#navbar-user-name-surname-text{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgb(201, 201, 201)
+}
+.navbar-button-texts,#hayde-logo-collapsed{
+    display: none;
+    color: rgb(201, 201, 201) ;
+}
+#navbar-search-input{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    
+    transition: all 0.2s linear;
+    color: rgb(201, 201, 201)
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    background-color: rgb(201, 201, 201)
+  }
+
+@media only screen and (max-width:767px){
+
+   #hayde-logo-expanded, #navbar-user-name-surname-text{
+    display: none;
+   }
+   #hayde-logo-collapsed{
+    display: block;
+   }
+
+   #friend-requests-button{
+       margin-top: 15px;
+       margin-left: 15px;
+   }
+   #notification-button{
+    margin-top: 15px;
+    margin-left: 13px;
+    }
+   #settings-button{
+    margin-top: 15px;
+    margin-left: 13px;
+    margin-right: 1px;
+
+    }
+    .navbar-button-texts{
+        display: inline;
+        color: rgb(201, 201, 201) ;
+        margin-left: 15px;
+        margin-top: 50px;
+        
+    }
+    #navbar-search-input{
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-buttons{
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
