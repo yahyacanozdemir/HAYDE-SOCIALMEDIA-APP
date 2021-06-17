@@ -1,7 +1,7 @@
 
 # HAYDE Sosyal Medya Projesi
 
-Projenin kullanım kılavuzu ve genel teknik rapor `Raporlar` isimli klasörün içerisindedir.
+Projenin kullanım kılavuzu ve genel teknik rapor proje ana dizininde kendi isimleriyle yer almaktadir.
 
 
 ## Bilgisayarınızda Çalıştırmak İçin
