@@ -60,6 +60,7 @@ class KullaniciController extends Controller
         $user->bolum_bilgisi=$request->bolum_bilgisi;
         $user->sinif_bilgisi=$request->sinif_bilgisi;
         $user->ilgi_alani=$request->ilgi_alani;
+        $user->yas=$request->yas;
         $user->save();
 
         if ($request->hasFile('profilfoto')) {
