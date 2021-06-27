@@ -13,7 +13,7 @@ Hayde, Bursa Teknik Üniversitesi öğrencilerine özel bir sosyal medya sitesi 
    
 Projede yazılan kod alanının esnekliği (adaptability) ile MVC katmanlı mimarisi sayesinde Hayde, her üniversite mailiyle kullanıma, yeni güncellemelere ve tüm üniversitelerin özeline göre yeniden uyarlanabilir.
 
-## Bilgisayarınızda Çalıştırmak İçin
+## Kurulumlar
 
 Projenin çalışabilmesi için bilgisayarınızda PHP, Laravel, MySql, Composer ve Npm kurulu olmalıdır.
 
@@ -30,7 +30,7 @@ Projenin çalışabilmesi için bilgisayarınızda PHP, Laravel, MySql, Composer
 **Npm kurulumu için:** `https://www.npmjs.com/get-npm`
 ##
 
-## Gerekli Kurulumların ardından
+## Projeyi Çalıştırmak
 
 Projeyi klonlayın
 
