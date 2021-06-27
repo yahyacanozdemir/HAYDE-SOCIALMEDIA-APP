@@ -18,8 +18,9 @@ Projenin çalışabilmesi için bilgisayarınızda PHP, Laravel, MySql, Composer
 **Composer kurulumu için:** `https://getcomposer.org/download/`
 
 **Npm kurulumu için:** `https://www.npmjs.com/get-npm`
+##
 
-Gerekli Kurulumların ardından:
+# Gerekli Kurulumların ardından:
 
 Projeyi klonlayın
 
