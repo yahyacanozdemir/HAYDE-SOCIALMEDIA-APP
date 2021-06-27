@@ -9,9 +9,9 @@ Bu proje Bursa Teknik Üniversitesi 2020-2021 dönemi bahar yarıyılı içerisi
 * [Hatice Çelik](https://github.com/haticelik)
 tarafından geliştirilmiştir. 
             
-   Hayde, Bursa Teknik Üniversitesi öğrencilerine özel bir sosyal medya sitesi olarak geliştirilmekle beraber, bir sosyal medya sitesinden beklenen neredeyse her şeyi yerine getirebilmektedir. Proje, domain & hosting ücretlerinden kaçınmak ve üniversite adına temel bir gereksinim olmadığı için canlıya taşınmamıştır.
+Hayde, Bursa Teknik Üniversitesi öğrencilerine özel bir sosyal medya sitesi olarak geliştirilmekle beraber, bir sosyal medya sitesinden beklenen neredeyse her şeyi yerine getirebilmektedir. Proje, domain & hosting ücretlerinden kaçınmak ve üniversite adına temel bir gereksinim olmadığı için canlıya taşınmamıştır.
    
-   Projede yazılan kod alanının esnekliği (adaptability) ile MVC katmanlı mimarisi sayesinde Hayde, her üniversite mailiyle kullanıma, yeni güncellemelere ve tüm üniversitelerin özeline göre yeniden uyarlanabilir.
+Projede yazılan kod alanının esnekliği (adaptability) ile MVC katmanlı mimarisi sayesinde Hayde, her üniversite mailiyle kullanıma, yeni güncellemelere ve tüm üniversitelerin özeline göre yeniden uyarlanabilir.
 
 ## Bilgisayarınızda Çalıştırmak İçin
 
