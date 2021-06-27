@@ -68,8 +68,14 @@ Son olarak projeyi sunucunuzda çalıştırmak için aşağıdaki kodu çalışt
 
 Tüm bu adımların ardından proje `127.0.0.1/8080` adresinden ulaşabilirsiniz.
 
+
+## Dokümanlar 
+
+* [HAYDE TEKNİK RAPOR](https://github.com/yahyacanozdemir/HAYDE-SOCIALMEDIA-APP/files/6722408/HAYDE.TEKNIK.RAPOR.pdf)
+* [HAYDE KULLANIM KILAVUZU](https://github.com/yahyacanozdemir/HAYDE-SOCIALMEDIA-APP/files/6722412/HAYDE.KULLANIM.KILAVUZU.pdf)
+
 ## Not 
 
-Sosyal medya uygulamasına kayıt olabilmeniz için `btu.edu.tr` uzantılı bir mail adresine sahip olmalısınız. Kayıt işleminizi gerçekleştirdiğinizde mail adresinize bir onay maili düşecektir. Onaylama mailindeki linke tıkladığınızda kayıt işleminiz onaylanacak ve giriş ekranına yönlendirileceksiniz. Proje local olarak çalıştığı için mail adresinizdeki linke projeyi çalıştırdığınız işletim sisteminden tıklamanız gerekmektedir.
+Bu repodaki orjinal sosyal medya uygulamasına kayıt olabilmeniz için `btu.edu.tr` uzantılı bir mail adresine sahip olmalısınız. Kayıt işleminizi gerçekleştirdiğinizde mail adresinize bir onay maili düşecektir. Onaylama mailindeki linke tıkladığınızda kayıt işleminiz onaylanacak ve giriş ekranına yönlendirileceksiniz. Proje local olarak çalıştığı için mail adresinizdeki linke projeyi çalıştırdığınız işletim sisteminden tıklamanız gerekmektedir.
 
 
