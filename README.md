@@ -79,7 +79,7 @@ Tüm bu adımların ardından proje `127.0.0.1/8080` adresinden ulaşabilirsiniz
 ![Başlıksız-2](https://user-images.githubusercontent.com/43846778/123561704-b5d94e00-d7b2-11eb-9a3e-345a2e150b45.png)
 ![Başlıksız-3](https://user-images.githubusercontent.com/43846778/123562009-a2c77d80-d7b4-11eb-9d36-b6920c706b40.png)
 ![Başlıksız-4](https://user-images.githubusercontent.com/43846778/123562013-a8bd5e80-d7b4-11eb-938a-4195fccca915.png)
-![Başlıksız-5](https://user-images.githubusercontent.com/43846778/123562051-df937480-d7b4-11eb-9853-8bde474b5df9.png)
+![Başlıksız-5](https://user-images.githubusercontent.com/43846778/123562246-2897f880-d7b6-11eb-8e0f-27c4ce3d2045.png)
 
 
 ## Not 
